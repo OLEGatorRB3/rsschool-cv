@@ -44,6 +44,4 @@ Russian - native speaker.
 
 English - A2 (B1 in process…)
 
-###### КАК ДОБАВИТЬ ПРОБЕЛЫ?
-###### ПОМЕНЯТЬ КОД
 
