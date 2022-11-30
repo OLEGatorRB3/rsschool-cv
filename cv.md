@@ -1,14 +1,12 @@
 # OLEG ZAGRYADSKY
 ## CONTACTS:
 +7-915-339-24-47  
-<OLEGatorRB3@gmail.com>
+<OLEGatorRB3@gmail.com>  
 ***
 
-
 ## ABOUT
-**Hello, world!**   
-
-I am *43* years old.    
+**Hello, world!** 
+I am 43 years old.    
 
 I work as a manager in an autotuning studio. I like to hang out on interesting sites and I want to learn how to make such sites
 ***
