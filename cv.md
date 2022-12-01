@@ -11,8 +11,7 @@ I am 43 years old.
   
 
 I work as a manager in an autotuning studio.  
-  
-  
+
  I like to hang out on interesting sites and I want to learn how to make such sites
 ***
 
@@ -26,11 +25,11 @@ I work as a manager in an autotuning studio.
 ## CODE EXAMPLE
 ```
 let page = document.querySelector('.page');
-let themeButton = document.querySelector('.theme-button');
+let button = document.querySelector('.button');
 
-themeButton.onclick = function() {
-  page.classList.remove('light-theme');
-  page.classList.add('dark-theme');
+button.onclick = function() {
+  page.classList.remove('light');
+  page.classList.add('dark');
 };
 ```
 ***
