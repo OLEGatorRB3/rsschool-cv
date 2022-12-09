@@ -3,7 +3,7 @@
 +7-915-339-24-47  
 <OLEGatorRB3@gmail.com>  
   
-  ***
+  * * *
 
 ## ABOUT
 **Hello, world!**   
