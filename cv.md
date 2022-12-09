@@ -45,6 +45,6 @@ MOSCOW AUTOMECHANICAL INSTITUTE
 ## LANGUAGES
 Russian - native speaker.  
 
-English - A2 (B1 in process…)
+Вid not check the level of English. I plan to take an English proficiency test in the summer of 2023. I have enough knowledge to understand the documentation. Of course, sometimes I resort to the help of a dictionary and Google translator
 
 
