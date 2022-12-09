@@ -14,7 +14,7 @@ I like to hang out on interesting sites and I want to learn how to make such sit
 ***
 
 
-  ## SKILLS
+## SKILLS
 * HTML
 * CSS
 * JAVASCRIPT
