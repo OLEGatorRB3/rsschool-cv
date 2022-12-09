@@ -34,8 +34,8 @@ button.onclick = function() {
 
 ## EDUCATION
 MOSCOW AUTOMECHANICAL INSTITUTE   
-1996-2001
-***  
+1996-2001  
+* * *
 
 
 
