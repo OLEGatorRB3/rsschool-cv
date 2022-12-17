@@ -1,15 +1,25 @@
 /* #465B28 */
+* {
+    box-sizing: border-box;
+}
 body{
     color: #fff;
 }
 .container{
     max-width: 1400px;
-    color: #000
+
+    color: #000;
+
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    color: #fff;
 }
 
 .header__container {
     margin: 0;
-    padding:  0;
+    padding: 0;
 }
 
 .header__menu {
@@ -24,12 +34,13 @@ body{
 }
 
 .menu__list{
-    padding: 0;
+    padding: 24px 0;
+    margin: 0;
     list-style: none;
     display: flex;
 }
 .menu__link {
-    padding: 20px;
+    padding: 40px 20px;
 
     color: #fff;
     text-decoration: none;
@@ -70,12 +81,10 @@ body{
 
     align-self: center;
 
-    margin: 0;
+    margin: 0 15px 0 0;
     padding: 0;
 
     text-align: right;
-
-    border: 1px solid #000;
 }
 
 .description{
@@ -84,8 +93,6 @@ body{
     margin-left: 40px;
 
     color:#000;
-
-    border: 1px solid #000;
 }
 
 .skills__list {
@@ -95,6 +102,22 @@ body{
     padding: 0;
 }
 
+
 .code__description pre{
     white-space: pre-line;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 24px 0;
+
+    color: #fff;
+    
+    background: #283B0D;
+}
+.footer__link{
+    color: #fff;
+    text-decoration: none;
 }
