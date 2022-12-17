@@ -4,6 +4,7 @@ body{
 }
 .container{
     max-width: 1400px;
+    color: #000
 }
 
 .header__container {
@@ -60,15 +61,14 @@ body{
 .info span{
     font-weight: bold;  
 }
-
-.skills__container{
-    display: flex;
-    justify-content: center;
-    color: #000;
-
+.main .container{
     padding: 40px 0;
 
     border: 1px solid #000;
+}
+.skills__container{
+    display: flex;
+    justify-content: center;
 }
 
 .skills__title{
@@ -90,5 +90,18 @@ body{
     margin: 0;
     padding: 0;
 
+    border: 1px solid #000;
+}
+
+
+.code__container{
+    display: flex;
+    justify-content: center;
+}
+.code__title{
+    align-self: center;
+}
+.code__description pre{
+    white-space: pre-line;
     border: 1px solid #000;
 }
