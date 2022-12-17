@@ -36,6 +36,7 @@ body{
 
     font-family: Oswald;
     font-size: 28px;
+    font-weight: 700;
 }
 
 .menu__list{
@@ -143,5 +144,49 @@ body{
 .footer__link{
     color: #fff;
     text-decoration: none;
+}
+.footer__link--black{
+    color: yellow;
+    
+    font-size: 22px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+}
+
+.course-icon,
+.github-icon{
+    position: relative;
+}
+.course-icon::before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -64px;
+
+    display: block;
+
+    width: 60px;
+    height: 40px;
+
+    background-image: url(img/rs_school_js.svg);
+    background-repeat: no-repeat;
+
+}
+.github-icon::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -29px;
+
+    display: block;
+    width: 24px;
+    height: 100%;
+
+    background-image: url(img/github-mark/github-mark-white.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
 
 }
