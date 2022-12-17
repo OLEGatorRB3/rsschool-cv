@@ -10,15 +10,13 @@ body{
 .header__container {
     margin: 0;
     padding:  0;
-
 }
 
 .header__menu {
     display: flex;
     justify-content: space-around;
 
-    background: #283B0D;
-    
+    background: #283B0D;    
 }
 
 .logo {
@@ -42,8 +40,7 @@ body{
 
 .header__info {
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 .photo {
     margin-right: 40px;
@@ -55,8 +52,7 @@ body{
     align-self: center;
 
     color: #000;
-    line-height: 2;
-    
+    line-height: 2;    
 }
 .info span{
     font-weight: bold;  
@@ -67,23 +63,29 @@ body{
     
     padding: 40px 0;
 
-    border: 1px solid #000;
+    color: #000;
 }
 .title{
+    width: 15%;
+
     align-self: center;
-    margin-right: 40px;
-
-}
-
-.skills__title{
 
     margin: 0;
     padding: 0;
+
+    text-align: right;
+
     border: 1px solid #000;
 }
 
-.skills__description{
+.description{
+    width: 40%;
+
     margin-left: 40px;
+
+    color:#000;
+
+    border: 1px solid #000;
 }
 
 .skills__list {
@@ -91,13 +93,8 @@ body{
 
     margin: 0;
     padding: 0;
-
-    border: 1px solid #000;
 }
-
-
 
 .code__description pre{
     white-space: pre-line;
-    border: 1px solid #000;
 }
