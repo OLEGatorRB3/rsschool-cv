@@ -4,6 +4,8 @@
 }
 body{
     color: #fff;
+
+    font-size: 16px;
 }
 .container{
     max-width: 1400px;
@@ -48,8 +50,8 @@ body{
     color: #fff;
     text-decoration: none;
 
-    font-family: Montserrat;
-    font-size: 18px;
+    font-family: Oswald;
+    font-weight: 400;
 }
 .menu__link:hover{
     color: #A9758D;
@@ -57,7 +59,9 @@ body{
 
 .header__info {
     display: flex;
-    justify-content: center;    
+    justify-content: center;  
+    
+    padding: 40px 0;
 }
 .photo {
     margin-right: 40px;
@@ -81,9 +85,10 @@ body{
     padding: 40px 0;
 
     color: #000;
+
 }
 .title{
-    width: 15%;
+    width: 20%;
 
     align-self: center;
 
@@ -92,9 +97,11 @@ body{
 
     font-family: Oswald;
     font-size: 24px;
+    font-weight: 700;
 
-    text-align: right;
+    text-align: center;
     text-transform: uppercase;
+
 }
 
 .description{
@@ -103,7 +110,6 @@ body{
     margin-left: 40px;
 
     font-family: Montserrat;
-    font-size: 18px;
 
     color:#000;
 }
@@ -129,7 +135,7 @@ body{
 
     color: #fff;
 
-    font-family: Montserrat;
+    font-family: Oswald;
     font-size: 18px;
     
     background: #283B0D;
