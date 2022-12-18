@@ -5,8 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__menu">
+                <div class="logo">
+                <span>OLEGatorRB</span>
+                </div>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="" class="menu__link">about</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">skills</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">code example</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">education</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">english</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__info">
+                <div class="photo title">
+                    <img src="img/photo1.jpg" alt="my photo" width="240">
+                </div>
+                <div class="info description">
+                    <span>Hello, world!</span> <br>
+
+                    I am 43 years old.  <br>
+
+                    I work as a manager in an autotuning studio.  <br>
+
+                    I like to hang out on interesting sites and I want to learn how to make such sites
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="content skills">
+            <div class="skills__container container">
+                <div class="skills__title title">
+                    skills
+                </div>
+                <div class="skills__description description">
+                    <ul class="skills__list">
+                        <li class="skills__item">html</li>
+                        <li class="skills__item">css</li>
+                        <li class="skills__item">js</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="content code">
+            <div class="code__container container">
+                <div class="code__title title">
+                    code
+                </div>
+                <div class="code__description description">
+                    <pre>
+                        <code>
+                                let page = document.querySelector('.page');
+                                let button = document.querySelector('.button');
+
+                                button.onclick = function() {
+                                    page.classList.remove('light');
+                                    page.classList.add('dark');
+                                };
+                        </code>
+                    </pre>
+                </div>
+            </div>
+        </section>
+        <section class="content education">
+            <div class="education__container container">
+                <div class="education__title title">
+                    education
+                </div>
+                <div class="education__description description">
+                    <p>MOSCOW AUTOMECHANICAL INSTITUTE</p>
+                    <p>1996-2001</p>
+                </div>
+            </div>
+        </section>
+        <section class="content english">
+            <div class="english__container container">
+                <div class="english__title title">
+                    english
+                </div>            
+                <div class="english__description description">
+                    Вid not check the level of English. I plan to take an English proficiency test in the summer of 2023. I have enough knowledge to understand the documentation. Of course, sometimes I resort to the help of a dictionary and Google translator
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="logo">
+                <span>OLEGatorRB</span>
+            </div>
+            <a href="https://rs.school/js/" target="_blank" class="footer__link footer__link--black course-icon">JavaScript/Front-end</a>
+            <div class="git">
+                <a href="https://github.com/OLEGatorRB3" target="_blank" class="footer__link github-icon">GitHub</a>
+            </div>
+            <div class="copy"><span>&#169; </span> 2022 Oleg Zagryadsky</div>
+        </div>
+    </footer>
 </body>
 </html>
