@@ -19,17 +19,14 @@ body{
 
     color: #000;
 
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+
+border: 1px solid #000;
 }
 .hidden{display: none;}
 .logo {
     color: #fff;
-}
-
-.header__container {
-    margin: 0;
-    padding: 0;
 }
 
 .header__menu {
@@ -111,6 +108,7 @@ body{
     text-align: center;
     text-transform: uppercase;
 
+    border: 1px solid #000;
 }
 
 .description{
