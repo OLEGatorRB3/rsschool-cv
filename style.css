@@ -21,8 +21,6 @@ body{
 
     margin: 0 auto;
     padding: 0;
-
-border: 1px solid #000;
 }
 .hidden{display: none;}
 .logo {
@@ -37,11 +35,23 @@ border: 1px solid #000;
 }
 
 .logo {
+    display: flex;
+    flex-direction: column;
     align-self: center;
 
     font-family: Oswald;
     font-size: 28px;
     font-weight: 700;
+}
+
+.logo__email{
+    align-self: center;
+
+    font-weight: 400;
+    font-family: oswald;
+    font-size: 12px;
+
+    color: #fff;
 }
 
 .menu__list{
@@ -91,7 +101,6 @@ border: 1px solid #000;
     padding: 40px 0;
 
     color: #000;
-
 }
 .title{
     width: 20%;
@@ -107,8 +116,6 @@ border: 1px solid #000;
 
     text-align: center;
     text-transform: uppercase;
-
-    border: 1px solid #000;
 }
 
 .description{
