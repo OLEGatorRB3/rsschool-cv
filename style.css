@@ -7,21 +7,46 @@ body{
 
     font-size: 16px;
 }
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-height: 100vh;
+}
 .container{
+    position: relative;
+
     max-width: 1400px;
 
     color: #000;
 
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
-.logo {
-    color: #fff;
+.main .container::after{
+    content: "";
+
+    position: absolute;
+
+    display: block;
+
+    height: 3px;
+    width: 60%;
+
+    bottom: 0;
+
+    background-color: #465B28;
+}
+.english .container::after {
+    height: 0;
 }
 
-.header__container {
-    margin: 0;
-    padding: 0;
+.hidden{display: none;}
+
+.logo {
+    color: #fff;
 }
 
 .header__menu {
@@ -32,11 +57,23 @@ body{
 }
 
 .logo {
+    display: flex;
+    flex-direction: column;
     align-self: center;
 
     font-family: Oswald;
     font-size: 28px;
     font-weight: 700;
+}
+
+.logo__email{
+    align-self: center;
+
+    font-weight: 400;
+    font-family: oswald;
+    font-size: 12px;
+
+    color: #fff;
 }
 
 .menu__list{
@@ -54,7 +91,8 @@ body{
     font-family: Oswald;
     font-weight: 400;
 }
-.menu__link:hover{
+.menu__link:hover,
+.footer__link:hover{
     color: #A9758D;
 }
 
@@ -64,6 +102,7 @@ body{
     
     padding: 40px 0;
 }
+
 .photo {
     margin-right: 40px;
 }
@@ -86,7 +125,6 @@ body{
     padding: 40px 0;
 
     color: #000;
-
 }
 .title{
     width: 20%;
@@ -102,17 +140,21 @@ body{
 
     text-align: center;
     text-transform: uppercase;
-
 }
 
 .description{
     width: 45%;
 
+    margin: 0;
     margin-left: 40px;
 
     font-family: Montserrat;
 
     color:#000;
+}
+.description p{
+    margin: 0;
+    padding: 0;
 }
 
 .skills__list {
