@@ -91,7 +91,8 @@ body{
     font-family: Oswald;
     font-weight: 400;
 }
-.menu__link:hover{
+.menu__link:hover,
+.footer__link:hover{
     color: #A9758D;
 }
 
@@ -144,11 +145,16 @@ body{
 .description{
     width: 45%;
 
+    margin: 0;
     margin-left: 40px;
 
     font-family: Montserrat;
 
     color:#000;
+}
+.description p{
+    margin: 0;
+    padding: 0;
 }
 
 .skills__list {
