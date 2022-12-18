@@ -1,0 +1,192 @@
+/* #465B28 */
+* {
+    box-sizing: border-box;
+}
+body{
+    color: #fff;
+
+    font-size: 16px;
+}
+.container{
+    max-width: 1400px;
+
+    color: #000;
+
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    color: #fff;
+}
+
+.header__container {
+    margin: 0;
+    padding: 0;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-around;
+
+    background: #283B0D;    
+}
+
+.logo {
+    align-self: center;
+
+    font-family: Oswald;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.menu__list{
+    padding: 24px 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+.menu__link {
+    padding: 40px 20px;
+
+    color: #fff;
+    text-decoration: none;
+
+    font-family: Oswald;
+    font-weight: 400;
+}
+.menu__link:hover{
+    color: #A9758D;
+}
+
+.header__info {
+    display: flex;
+    justify-content: center;  
+    
+    padding: 40px 0;
+}
+.photo {
+    margin-right: 40px;
+}
+.photo img{
+    border-radius: 50%;
+}
+.info {
+    align-self: center;
+
+    color: #000;
+    line-height: 2;    
+}
+.info span{
+    font-weight: bold;  
+}
+.main .container{
+    display: flex;
+    justify-content: center;
+    
+    padding: 40px 0;
+
+    color: #000;
+
+}
+.title{
+    width: 20%;
+
+    align-self: center;
+
+    margin: 0 15px 0 0;
+    padding: 0;
+
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 700;
+
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.description{
+    width: 45%;
+
+    margin-left: 40px;
+
+    font-family: Montserrat;
+
+    color:#000;
+}
+
+.skills__list {
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.code__description pre{
+    white-space: pre-line;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 24px 0;
+
+    color: #fff;
+
+    font-family: Oswald;
+    font-size: 18px;
+    
+    background: #283B0D;
+}
+.footer__link{
+    color: #fff;
+    text-decoration: none;
+}
+.footer__link--black{
+    color: yellow;
+    
+    font-size: 22px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+}
+
+.course-icon,
+.github-icon{
+    position: relative;
+}
+.course-icon::before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -64px;
+
+    display: block;
+
+    width: 60px;
+    height: 40px;
+
+    background-image: url(img/rs_school_js.svg);
+    background-repeat: no-repeat;
+
+}
+.github-icon::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -29px;
+
+    display: block;
+    width: 24px;
+    height: 100%;
+
+    background-image: url(img/github-mark/github-mark-white.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+
+}
